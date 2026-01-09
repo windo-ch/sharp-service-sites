@@ -1,10 +1,12 @@
+import henryLogo from "@/assets/henry-logo.png";
+
 const Logo = () => {
   return (
-    <div className="flex items-center justify-center w-10 h-10 bg-primary">
-      <span className="text-primary-foreground font-heading font-bold text-xl leading-none">
-        H
-      </span>
-    </div>
+    <img 
+      src={henryLogo} 
+      alt="Henry Marketing" 
+      className="w-12 h-12 md:w-14 md:h-14"
+    />
   );
 };
 
